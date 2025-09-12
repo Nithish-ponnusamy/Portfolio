@@ -81,6 +81,16 @@ const EducationCertifications = () => {
     }
   };
 
+  const connectingLineVariants = {
+    hidden: { width: 0 },
+    visible: {
+      width: "100%",
+      transition: {
+        duration: 1,
+        ease: "easeInOut"
+      }
+    }
+  };
 
   return (
     <section id="education" className="py-32 bg-gray-900 relative">

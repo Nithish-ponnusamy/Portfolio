@@ -156,8 +156,6 @@ const Projects = () => {
     setShowModal(true);
   };
 
-
-
   const scrollToTop = () => {
     const projectsSection = document.getElementById("projects");
     projectsSection?.scrollIntoView({ behavior: "smooth" });
@@ -418,7 +416,6 @@ const Projects = () => {
                   animate="visible"
                   exit="exit"
                   viewport={{ once: true, margin: "-100px" }}
-
                 >
                   {filteredProjects.map((project, index) => (
                     <motion.div

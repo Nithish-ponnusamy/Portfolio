@@ -14,7 +14,6 @@ import {
   DiLinux,
 } from "react-icons/di";
 import {
-  SiTypescript,
   SiNextdotjs,
   SiTailwindcss,
   SiFirebase,
