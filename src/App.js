@@ -14,7 +14,6 @@ import './App.css';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  // Enhanced scroll behavior with proper cleanup
   useEffect(() => {
     // Add classes to optimize scrolling
     document.documentElement.style.scrollBehavior = 'smooth';
