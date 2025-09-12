@@ -11,27 +11,20 @@ import {
   DiPython,
   DiGit,
   DiMysql,
-  DiPostgresql,
   DiLinux,
-  DiAndroid,
 } from "react-icons/di";
 import {
   SiTypescript,
   SiNextdotjs,
   SiTailwindcss,
-  SiGraphql,
+  SiFirebase,
   SiDocker,
+  SiKubernetes,
   SiAmazonwebservices,
   SiC,
-  SiCplusplus,
-  SiRedux,
-  SiFirebase,
-  SiFlutter,
-  SiKubernetes,
-  SiTensorflow,
-  SiApple,
   SiGrafana,
   SiPrometheus,
+  SiTensorflow,
 } from "react-icons/si";
 import { FaSearch, FaFilter, FaTimes } from "react-icons/fa";
 

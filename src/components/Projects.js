@@ -12,10 +12,13 @@ const Projects = () => {
   const [filter, setFilter] = useState("all");
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-  const [isInView, setIsInView] = useState(false);
   const [loading, setLoading] = useState(true);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const modalRef = useRef(null);
+
+  const closeModal = useCallback(() => {
+    setShowModal(false);
+  }, []);
 
   const projects = [
     {
@@ -153,18 +156,7 @@ const Projects = () => {
     setShowModal(true);
   };
 
-  const closeModal = () => {
-    setShowModal(false);
-  };
 
-  const handleEscapeKey = useCallback(
-    (e) => {
-      if (e.key === "Escape" && showModal) {
-        closeModal();
-      }
-    },
-    [showModal]
-  );
 
   const scrollToTop = () => {
     const projectsSection = document.getElementById("projects");
@@ -426,7 +418,7 @@ const Projects = () => {
                   animate="visible"
                   exit="exit"
                   viewport={{ once: true, margin: "-100px" }}
-                  onViewportEnter={() => setIsInView(true)}
+
                 >
                   {filteredProjects.map((project, index) => (
                     <motion.div
