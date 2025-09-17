@@ -196,14 +196,7 @@ const Footer = () => {
               <span className="text-white font-semibold">Nithish P</span>. All
               rights reserved.
             </p>
-            <div className="flex items-center gap-2 text-sm">
-              <span>Built with</span>
-              <span className="text-blue-400">React</span>
-              <span>•</span>
-              <span className="text-orange-400">Jenkins</span>
-              <span>•</span>
-              <span className="text-blue-300">Docker</span>
-            </div>
+           
           </div>
         </motion.div>
       </div>
