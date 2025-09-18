@@ -362,7 +362,7 @@ const Contact = () => {
                   className="p-4 bg-green-500/20 border border-green-500/50 rounded-xl text-green-300 text-center"
                 >
                   ✅ Perfect! Your message has been sent directly to my email
-                  (nithinithish271@gmail.com). I'll respond within 24 hours!
+                  (nithinithish271@gmail.com). I'll respond within 24 hours!!
                 </motion.div>
               )}
 
